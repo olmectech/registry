@@ -1,0 +1,8 @@
+---
+keys:
+    k01:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\LimitBlankPasswordUse 
+        value: 06
+    k02:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\AuditBaseObjects
+        value: 05
