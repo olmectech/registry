@@ -2,7 +2,166 @@
 keys:
     k01:
         key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\LimitBlankPasswordUse 
-        value: 06
+        value: 01
     k02:
         key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\AuditBaseObjects
-        value: 05
+        value: 00
+    k03:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\fullprivilegeauditing
+        value: 00
+    k04:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\scenoapplylegacyauditpolicy
+        value: 00
+    k05:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\crashonauditfail
+        value: 00
+    k06:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\AllocateCDRoms
+        value: 01
+    k07:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\AllocateFloppies
+        value: 01
+    k08:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers\AddPrinterDrivers
+        value: 01
+    k09:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\requiresignorseal
+        value: 01
+    k10:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\sealsecurechannel
+        value: 01
+    k11:
+        key: KEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\signsecurechannel
+        value: 01
+    k12:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\disablepasswordchange
+        value: 00
+    k13:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\requirestrongkey
+        value: 01
+    k14:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\LegalNoticeText
+        value: You have connected to a proprietary system. Only authorized users may access, this system. Access by unauthorized individuals is prohibited and will be, prosecuted to the full extent of the law. This system is monitored for unauthorized usage
+
+    k15:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\LegalNoticeCaption
+        value: Important Notice
+
+    k16:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\scforceoption
+        value: 00
+
+    k17:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DontDisplayLastUserName
+        value: 01
+  
+    k18:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableCAD
+        value: 00
+  
+    k19:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\InactivityTimeoutSecs
+        value: 900
+  
+    k20:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\cachedlogonscount
+        value: 00
+  
+    k21:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\passwordexpirywarning
+        value: 14
+  
+    k22:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\ForceUnlockLogon
+        value: 01
+  
+    k23:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\scremoveoption
+        value: 01
+  
+    k24:
+        key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\MaxDevicePasswordFailedAttempts
+        value: 00
+  
+    k25:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\RequireSecuritySignature
+        value: 00
+  
+    k26:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnableSecuritySignature
+        value: 01
+  
+    k27:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters\EnablePlainTextPassword
+        value: 00
+
+   k28:
+        key: . Navigate to the following registry key "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\SMBServerNameHardeningLevel
+        value: 00
+
+   k29:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\autodisconnect
+        value: 15
+   k30:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\requiresecuritysignature
+        value: 00
+   k31:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\enablesecuritysignature"
+        value: 01
+   k32:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\enableforcedlogof
+        value: 01
+   k33:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\DisableDomainCreds
+        value: 01
+   k34:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\NullSessionPipes
+        value: COMNAP COMNODE SQL\QUERY LLSRPC
+   k35:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\NullSessionShares
+        value: COMCFG DFS$
+   k36:
+        key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\RestrictAnonymous
+        value: 01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
