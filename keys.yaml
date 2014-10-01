@@ -297,3 +297,23 @@ keys:
  k75:
   key: HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated
   value: 00
+
+ k76:
+  key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths\Machine
+  value: 'System\CurrentControlSet\Control\ProductOptions System\CurrentControlSet\Control\Server Applications Software\Microsoft\Windows NT\CurrentVersion'
+
+ k77:
+  key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\restrictnullsessaccess
+  value: 01
+
+ k78:
+  key: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\ForceGuest
+  value: 00
+
+ k79:
+  key: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters\SupportedEncryptionTypes
+  value: 7fffffff
+
+ k80: HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated
+  key: 00
+ 
